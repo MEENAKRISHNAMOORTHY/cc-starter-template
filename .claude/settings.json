@@ -3,6 +3,6 @@
   "permissions": {
     "allow": ["Read", "Edit(src/**)"],
     "ask": ["WebFetch"],
-    "deny": ["Bash(rm -rf *)", "Read(./secrets/**)", "Read(./.env)"]
+    "deny": ["Bash(rm -rf *)", "Read(.env)", "Read(secrets/**)"]
   }
 }
